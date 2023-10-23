@@ -4,10 +4,16 @@
 /node_modules
 /.pnp
 .pnp.js
+netlify.toml
+functions
+public/data
+public/images
+public/images_2
+
 
 # testing
 /coverage
-
+/src/components/GetS3Content.jsx
 # production
 /build
 
@@ -17,6 +23,7 @@
 .env.development.local
 .env.test.local
 .env.production.local
+.env
 
 npm-debug.log*
 yarn-debug.log*
